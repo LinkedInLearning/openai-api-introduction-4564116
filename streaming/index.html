@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BigChat</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer type="module"></script>
+    <!-- <script src="request.js" defer type="module"></script> -->
+  </head>
+  <body>
+    <div id="chat" class="chat">
+      <span class="assistant">How can I help you?</span> <span class="cursor">></span>
+      <form id="inputform" class="inputform">
+        <label class="input-sizer">
+          <input type="text" class="inputfield" onInput="this.parentNode.dataset.value = this.value" size="1">
+        </label>
+    </div>
+  </body>
+</html>

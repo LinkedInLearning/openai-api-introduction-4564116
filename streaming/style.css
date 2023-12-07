@@ -1,0 +1,86 @@
+:root {
+  --orange: #ffb00d;
+  --green: #66ff66;
+  --bg: #282828;
+}
+
+/* add windows_command_prompt.ttf font */
+@font-face {
+  font-family: "windows_command_prompt";
+  src: url("windows_command_prompt.otf");
+}
+
+/* Universal box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--green);
+  font-family: "windows_command_prompt", "Courier New", Courier, monospace;
+}
+
+.chat,
+.inputfield {
+  font-size: clamp(4rem, 5vw, 8rem);
+  font-weight: bolder;
+}
+
+.cursor,
+.spinner {
+  color: lightgrey;
+}
+
+.user {
+  color: var(--green);
+}
+
+.assistant {
+  color: var(--orange);
+}
+
+/* Styles for dynamic sizing of input form */
+.inputform,
+.inputfield {
+  display: inline;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  color: var(--green);
+  caret-color: lightgrey;
+  caret-shape: underscore;
+}
+
+/* Base styles for .input-sizer */
+.input-sizer {
+  display: inline-grid;
+  vertical-align: top;
+  align-items: center;
+  position: relative;
+}
+
+/* Styles for ::after, input, and textarea inside .input-sizer */
+.input-sizer::after,
+.input-sizer input {
+  width: auto;
+  min-width: 1em;
+  grid-area: 1 / 2;
+  font: inherit;
+  /* padding: 0.25em; */
+  margin: 0;
+  resize: none;
+  background: none;
+  appearance: none;
+  border: none;
+}
+
+/* Specific styles for ::after in .input-sizer */
+.input-sizer::after {
+  content: attr(data-value) " ";
+  visibility: hidden;
+  white-space: pre-wrap;
+}
