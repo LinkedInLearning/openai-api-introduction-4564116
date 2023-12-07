@@ -17,8 +17,17 @@ To use these exercise files you need an OpenAI API key. You get that key at [pla
 3. Create a new file named `.env` in the root folder.
 4. Add `OPENAI_API_KEY=` followed by your OpenAI API key to `.env`
 5. Note `.env` is not tracked by GitHub so the file will only exist in this Codespace.
-6. To run the Python examples in terminal, navigate to the `/python` folder and use the `python [filename.py]` command.
-7. To run the Node.js examples in terminal, navigate to the `/node` folder and use the `node [filename.js]` command.
+6. To run the Python example in terminal, use the `python example-python.py` command.
+7. To run the Node.js example in terminal, use the `node example-node.js` command.
+
+## Running the streaming example in your browser
+# For demonstration purposes only!
+1. Rename the file `config-template.json` to `config.json`.
+2. Add your OpenAI API key to the JSON object.
+3. Use the Live Server extension to run `/streaming/index.html` in the browser.
+4. Interact with the agent.
+5. The API interaction happens in `/streaming/request.js`.
+6. IMPORTANT: Read the warning at the top of `/streaming/request.js`.
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
