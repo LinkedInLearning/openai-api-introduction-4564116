@@ -1,6 +1,7 @@
 # OpenAI API: Introduction
 This is the repository for the LinkedIn Learning course OpenAI API: Introduction. The full course is available from [LinkedIn Learning][lil-course-url].
 
+![lil-thumbnail-url]
 
 The OpenAI API gives you programmatic access to OpenAI’s GPT system for everything from chat (your own ChatGPT clone) to image processing through Dall-E, to audio processing with Whisper, to building custom assistants and more. In this course you’ll learn how the OpenAI API works, how to use it both in the OpenAI playground and in your own apps, and where to find up-to-date documentation and examples.
 
