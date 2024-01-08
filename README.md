@@ -2,6 +2,8 @@
 This is the repository for the LinkedIn Learning course OpenAI API: Introduction. The full course is available from [LinkedIn Learning][lil-course-url].
 
 
+The OpenAI API gives you programmatic access to OpenAI’s GPT system for everything from chat (your own ChatGPT clone) to image processing through Dall-E, to audio processing with Whisper, to building custom assistants and more. In this course you’ll learn how the OpenAI API works, how to use it both in the OpenAI playground and in your own apps, and where to find up-to-date documentation and examples.
+
 _See the readme file in the main branch for updated instructions and information._
 
 ## Instructions
@@ -32,6 +34,6 @@ To use these exercise files you need an OpenAI API key. You get that key at [pla
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+[lil-course-url]: https://www.linkedin.com/learning/openai-api-introduction
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQEWS5-DC0zYIw/learning-public-crop_675_1200/0/1704245394141?e=2147483647&v=beta&t=DgHF-0BoUcdfRz5JMRlgjCG849Cpr2BnDo1J9fLu-rc
 
